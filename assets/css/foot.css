@@ -1,0 +1,86 @@
+.rodape{
+	background-color: white;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	overflow: hidden;
+	height: 13%;
+	display: flex;
+}
+.conteudo-rodape{
+	position: relative;
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+.rodape-inferior{
+	border-top: 10px solid #f3f3f4;
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height:40px;
+	align-items: center;
+}
+.rodape-inferior p{
+	font: 700 14px 'Arial';
+	color: #877f6f;
+}
+.pagamento-seguranca{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+}
+.pagamento-seguranca h2{
+	font: 700 14px 'Arial';
+}
+.menu-rodape{
+	display: flex;
+	margin-top: 20px;
+}.menu-rodape-lista ul{
+	width: 100%;
+	list-style: none;
+
+}
+.menu-rodape-lista ul>li a{
+	font-size: 12px;
+	color: #00000094;
+	margin-top: 8px;
+	font-weight: bold;
+}
+.menu-rodape-lista{
+	width: 20%;
+
+}.contato-numero span{
+	font-weight: bold;
+	color: black;
+	font: 900 18px 'Arial';
+
+}
+#ddd{
+	font-size: 15px !important;
+}
+#numero{
+	margin-left: 5px;
+}
+#horario{
+	font-weight: bold;
+	font: 900 13px 'Arial';
+}
+.menu-rodape div:nth-child(3){
+	width: 26%;
+}
+.menu-rodape div>h2{
+	margin-bottom: 10px;
+	font: 700 14px 'Arial';
+}.menu-rodape div:nth-child(1n+1){
+	margin-right: 30px;
+}
+.pagina-eficaz{
+	margin-right: 0 !important;
+	width: 25%;
+}
+.pagina-eficaz img{
+	width: 100%;
+}

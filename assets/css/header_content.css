@@ -1,0 +1,88 @@
+main{
+	
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 10px;
+	height: 30%;
+}
+.bold{
+	font-weight: bold;
+}
+.bg-black{
+	background-color: black !important;
+	color: white !important;
+}
+.info{
+	height: 35%;
+	display: flex;
+	flex-wrap: wrap;
+}.info div{
+	height: 50%;
+	flex: 1 1 200px;
+	margin: 1%;
+	align-items: center;
+	display: flex;
+	
+}
+.info div:last-child{
+	height: 35%;
+}
+
+.info > div:first-child{
+	flex:1 1 70%;
+	
+}
+.cupom-desconto{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom:  25px;
+	background-color: white;
+}
+.cupom-desconto div, form, form >input{
+	height: 80%;
+	flex-wrap: wrap;
+
+}
+.cupom-desconto .texto{
+	flex: 1 1 100px;
+	display: inline;
+	padding-top: 35px;
+	align-content: center;
+	margin: 0;
+    margin-left: 10px;
+	
+	
+}
+.cupom-desconto .texto>p{
+	margin: 0;
+}
+.cupom-desconto .texto>p:last-child{
+	font-size: 10px;
+	font-weight: bold;
+	margin-top: 5px;
+
+}
+.cupom-desconto .texto>p:first-child, span{
+	font-size: 17px;
+	font-weight: normal;
+}
+.cupom-desconto form{
+	flex: 1 1 650px;
+	display: flex;
+	align-items: center;
+}
+
+.cupom-desconto form>input{
+	border: 0.5px groove #00000070;
+	width: 200px;
+	margin: 10px;
+	
+
+}
+#enviaDesconto{
+	width: 285px !important;
+	height: 100%;
+	align-items: center;
+	padding: 15px;
+	cursor: pointer;
+}

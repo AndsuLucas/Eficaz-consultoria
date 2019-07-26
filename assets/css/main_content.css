@@ -1,0 +1,74 @@
+.secao-slideshow{
+    padding-top: 5px;
+    margin-top: 26px;	
+	background-color: white;
+	text-align: center;
+}
+.secao-slideshow h3, .secao-slideshow2 h3{
+	color: #777777;
+}
+.slideshow-conjunto{
+	margin-top: 30px;
+	display: flex;
+	position: relative;
+	height: 30%;
+}
+.secao-slideshow2{
+	padding-top: 5px;
+    margin-top: 10px;	
+	background-color: white;
+	text-align: center;
+}
+.slideshow-conjunto div{
+	max-width: 24%;
+	max-height: 40%;
+}
+#setaEsquerda, #setaDireita{
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+#setaEsquerda:hover, #setaDireita:hover{
+	width: 50px;
+	transition: 2s;
+}
+#setaEsquerda{
+	position: absolute;
+	left: 0;
+	bottom: 50%;
+}
+#setaDireita{
+	position: absolute;
+	right: 0;
+	bottom: 50%;	
+}.btnSlideshow{
+	align-content: space-between;
+	margin: 25px;
+}.btnSlideshow .feather{
+	color: #6d6464ab;
+}
+
+.amostragem{
+	display: grid;
+	max-width: 100%;
+	grid-template-columns: repeat(3, 1fr); 
+	grid-template-rows: 1fr 1fr; 
+	grid-gap: 35px;
+
+}
+.amostragem div{
+	max-width: 100%;
+	max-height: 100%;
+
+	
+}
+.amostragem div > img{
+	max-width: 100%;
+	height: 100%;
+}
+.amostragem .propaganda{
+	grid-row: 1/3;
+	height: 100%;
+}
+
+
